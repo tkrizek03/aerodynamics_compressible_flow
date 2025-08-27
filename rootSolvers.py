@@ -4,7 +4,7 @@ Nonlinear root solver class for AERE 3110
 @author: Trey Krizek
 """
 
-class rootSolvers:
+class rootSolvers():
     
     def bisection_solver(f, *args, ivl, tol=1e-9, max_iter=500):
         a = ivl[0]
